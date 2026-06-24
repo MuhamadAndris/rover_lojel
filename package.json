@@ -1,0 +1,45 @@
+{
+  "name": "retail-pos",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "tsx scripts/seed.ts"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.4",
+    "mongoose": "^8.5.1",
+    "next-auth": "^4.24.7",
+    "bcryptjs": "^2.4.3",
+    "zod": "^3.23.8",
+    "exceljs": "^4.4.0",
+    "papaparse": "^5.4.1",
+    "date-fns": "^3.6.0",
+    "react-hot-toast": "^2.4.1",
+    "lucide-react": "^0.424.0",
+    "recharts": "^2.12.7",
+    "ag-grid-community": "^32.2.0",
+    "ag-grid-react": "^32.2.0",
+    "clsx": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.13",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/papaparse": "^5.3.14",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.40",
+    "dotenv": "^16.4.5",
+    "tailwindcss": "^3.4.7",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.5",
+    "tsx": "^4.16.5"
+  }
+}
